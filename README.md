@@ -1,6 +1,6 @@
 # Docker Manager
 
-A desktop application built with Tauri + React + TypeScript for managing Docker containers and images.
+A desktop application built with Rust (Tauri) + React (TypeScript) for managing local Docker containers and images.
 
 ## Features
 - Container management (create, stop, kill)
@@ -15,7 +15,7 @@ A desktop application built with Tauri + React + TypeScript for managing Docker 
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/docker-manager
+git clone https://github.com/hkurdi/docker-manager
 cd docker-manager 
 npm install
 ```
@@ -31,7 +31,7 @@ npm run tauri build
 ```
 
 ## Stack
-- Tauri
+- Rust (Tauri)
 - React
 - TypeScript
 - Docker SDK for Rust (bollard)
